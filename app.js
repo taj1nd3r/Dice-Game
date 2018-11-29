@@ -25,7 +25,7 @@ init();
 
 document.querySelector('.btn-roll').addEventListener('click', function btn() {
     if (gameplaying) {
-        //Random number
+        //Showing Random number on clicking rollDice button
         var dice = Math.floor(Math.random() * 6) + 1;
 
         //Display the result
